@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+input[type=text]{
+  width:70%;
+  background-image: url(./assets/Imgs/map-marker-alt.png);
+  background-repeat: no-repeat;
+  background-position: 15px 15px;
+  background-color: #efe0e0;
+  border: none;
+  border-radius: 2px;
+  padding: 12px 20px 12px 40px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+input[type=email]{
+  width:60%;
+  background-image: url(./assets/Imgs/envelope.png);
+  background-repeat: no-repeat;
+  background-position: 15px;
+  padding:10px 20px 10px 40px ;
+  background-color: #424242;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.button{
+  background: rgba(241, 114, 40, 0.2);
+  border: none;
+  border-radius: 4px;
+  color: #f17228;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.background{
+  background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+}
+.margin{
+  margin-right: 5px;
+}
+.round{
+  background-color: #f17228;
+  border: #f17228;
+  border-radius: 10px;
+  padding: 10px ;
+}
+.round1{
+  background-color: #f17228;
   color: white;
+  border-radius: 10px;
+  border: none;
+ width: 170px;
+
+}
+.button1{
+  background-color:rgba(121, 185, 60, 0.2) ;
+  color:  #79B93C;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.view {
+  background: linear-gradient(97.86deg, #FFBA26 -8.95%, #FF9A0E 109.24%);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mobile-sec{
+  background-color: #FEEFD0;
+}
+.view1 {
+  background: linear-gradient(97.86deg, #FFBA26 -8.95%, #FF9A0E 109.24%);
+  box-shadow: 0px 5px 10px rgb(255 174 0 / 26%), 0px 20px 40px rgb(255 174 0 / 29%);
+  border-radius: 10;
+}
+.shadow{
+  box-shadow: #efefef;
+}
+.card-hori {
+  filter: drop-shadow(0px 14px 15px rgba(124, 124, 124, 0.06)) drop-shadow(0px 27px 82px rgba(124, 124, 124, 0.28));
+  border-radius: 16px;
+}
+.last-section {
+  background: url(./assets/Imgs/aa.png);
+}
+.find-food {
+  background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+  border-radius: 8px;
 }
